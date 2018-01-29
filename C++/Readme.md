@@ -2,6 +2,10 @@
 
 
 
+## Exclude duplicate content in C language
+
+
+
 Reference books : professional C++(C++ 14)
 
 
