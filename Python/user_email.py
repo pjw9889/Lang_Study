@@ -17,5 +17,5 @@ def email_validation_check(email):
     print(email, 'is correct e-mail type')
     return True
 
-    if __name__ = '__main__':
-        email_validation_check(str(sys.argv[1]))
+    if __name__ == '__main__':
+        email_validation_check(sys.argv[1])
