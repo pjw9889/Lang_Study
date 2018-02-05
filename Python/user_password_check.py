@@ -39,4 +39,4 @@ def password_validation_check(pwd):
     return True
 
     if __name__ == '__main__':
-        password_validation_check(str(sys.argv[1]))
+        password_validation_check(sys.argv[1])
