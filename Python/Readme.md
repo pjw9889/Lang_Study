@@ -2,7 +2,7 @@
 
 
 
-Python Version : 3.6 release
+Python Version : 3.6.4 release
 
 
 
