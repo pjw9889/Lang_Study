@@ -8,7 +8,9 @@ Python Version : 3.6.4 release
 
 Using IDE : Atom 
 
-using DB : sqlite3
+Using DB : sqlite3
+
+Using Web : django
 
 
 
