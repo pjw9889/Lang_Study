@@ -3,27 +3,48 @@
 ##  Frequently used Git commands
 
 1. commit
+
 2. push
+
 3. pull
+
 4. clone
+
 5. checkout
+
 6. add
+
 7. branch
+
 8. log
+
 9. diff
+
 10. fetch
+
 11. merge
+
 12. init
+
 13. status
+
 14. reset
+
 15. tag
+
 16. rebase
+
 17. rm
+
 18. show
+
 19. bisect
+
 20. grep
+
 21. mv
-22. ​
+
+    ​
 
 ## 1. solve command
 
@@ -65,9 +86,15 @@
 
 
 
--> git checkout -b name
+-> git branch "new_name"  (make new branch)
 
-it means (git branch name + git checkout name)
+
+
+-> git checkout "change branch name" (change )
+
+
+
+-> git checkout -b name (it means git branch name + git checkout name)
 
 
 
@@ -76,6 +103,40 @@ it means (git branch name + git checkout name)
 
 
 -> git branch -d name
+
+-> git branch -D (not merge branch delete)
+
+
+
+### C. View branch list
+
+
+
+-> git branch 
+
+
+
+### D. compare to branchs
+
+
+
+-> git log "branch1".."branch2"
+
+-> git log --branches --graph --decorate --oneline (all branches view and expression using graph)
+
+#### if you want to compare code 
+
+-> git diff "branch1".."branch2"
+
+
+
+### E. Merge branch
+
+#### if you want to B branch merge to A branch
+
+-> git checkout A
+
+-> git merge B
 
 
 
