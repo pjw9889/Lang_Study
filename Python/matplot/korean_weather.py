@@ -20,6 +20,9 @@ import matplotlib as mpl
 mpl.use("Agg")
 import matplotlib.pyplot as plt
 
-plt.hist(seoul)
+labels = list(range(len(seoul)))
+
+plt.plot(labels, seoul)
+
 plt.savefig("./result_pic/seoul.png")
 plt.close()
